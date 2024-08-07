@@ -1,3 +1,14 @@
+/* Scroll Reveal Config */
+document.addEventListener('DOMContentLoaded', () => {
+    ScrollReveal().reveal('.reveal', {
+        duration: 500, // Animation duration in milliseconds
+        distance: '50px', // Distance the element moves
+        easing: 'ease-in-out', // Easing function
+        origin: 'left', // Animation origin: top, right, bottom, left
+        reset: true // Whether to repeat the animation on scrolling back
+    });
+});
+
 /* Navbar Responsiveness */
 document.getElementById('menu-btn').addEventListener('click', function () {
     var navLinks = document.getElementById('nav-links');

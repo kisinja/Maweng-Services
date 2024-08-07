@@ -6,6 +6,12 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Gallery | Maweng Consulting Services Limited</title>
     <link rel="stylesheet" href="output.css">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/b052718160.js" crossorigin="anonymous"></script>
+
+    <!-- Scroll Reveal CDN -->
+    <script src="https://unpkg.com/scrollreveal"></script>
 </head>
 
 <body class="bg-gray-200">
@@ -60,7 +66,7 @@
                     class="bg-white text-black p-1 rounded">yourself</span></h1>
         </div>
 
-        <center class="mt-[40px] mb-[60px] max-w-[550px] m-auto flex flex-col gap-3">
+        <center class="mt-[40px] mb-[60px] max-w-[550px] m-auto flex flex-col gap-3 reveal">
             <h1 class="font-bold text-xl md:text-3xl mt-4">Showcasing Innovation and Excellence</h1>
             <p class="text-gray-500 tracking-wider">
                 At <span class="text-[#62ff00]">MAWENG CONSULTING LIMITED</span>, we pride ourselves on delivering
@@ -71,40 +77,76 @@
         </center>
 
         <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 mt-4 place-items-center">
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/1d/58/d4/1d58d410149871f639375800435bcca0.jpg" alt="project"
                     class="object-cover w-[100%] h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/2d/ea/a9/2deaa9b9545513a3aeaab75bb1916614.jpg" alt="project"
                     class="object-cover w-[100%] h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/7d/0e/7d/7d0e7d9ceacd5ffde9f131b825423b3c.jpg" alt="project"
                     class="object-cover w-[100%] h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/47/57/6b/47576b13fd446c249c8b906126e67fb0.jpg" alt="project"
                     class="object-cover w-[100%] h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/736x/f7/ef/16/f7ef16b8a13b06419a2ec127a6c6a6fa.jpg" alt="project"
                     class="object-cover w-[100%] h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/e2/70/d9/e270d9f16f4ed6955e1207ad9d0e122a.jpg" alt="project"
                     class="object-cover w-full h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/73/12/ed/7312ed0fb2408ec87456ec8792e864c1.jpg" alt="project"
                     class="object-cover w-full h-full rounded-lg gallery-img" />
             </div>
-            <div class="w-full sm:w-[330px] h-[330px]">
+            <div class="w-full sm:w-[330px] h-[330px] reveal">
                 <img src="https://i.pinimg.com/564x/3b/d2/ef/3bd2ef79a8e8debe4d9d536787c4a83b.jpg" alt="project"
                     class="object-cover w-full h-full rounded-lg gallery-img" />
             </div>
         </div>
     </section>
+
+    <!-- Footer Section -->
+    <footer class="w-full bg-black py-[30px] px-[5%] flex flex-col gap-12">
+        <div class="flex w-full items-center justify-between">
+            <ul class="flex flex-col gap-3 md:flex-row md:gap-8">
+                <li class="text-gray-100 tracking-wider">
+                    <a href="index.html#services" class="text-gray-500 hover:text-white">
+                        Services
+                    </a>
+                </li>
+                <li class="text-gray-100 tracking-wider">
+                    <a href="#" class="text-gray-500 hover:text-white">
+                        Schedule Appointment
+                    </a>
+                </li>
+                <li class="text-gray-100 tracking-wider">
+                    <a href="#" class="text-gray-500 hover:text-white">
+                        FAQs
+                    </a>
+                </li>
+                <li class="text-gray-100 tracking-wider">
+                    <a href="index.html#contact" class="text-gray-500 hover:text-white">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="flex gap-5 md:flex-row">
+                <i class="fa-brands fa-instagram text-green-800 text-xl cursor-pointer hover:text-[#62ff00]"></i>
+                <i class="fa-brands fa-linkedin text-green-800 text-xl cursor-pointer hover:text-[#62ff00]"></i>
+                <i class="fa-brands fa-twitter text-green-800 text-xl cursor-pointer hover:text-[#62ff00]"></i>
+            </div>
+        </div>
+        <center>
+            <p class="tracking-wider text-gray-100 text-sm">© <span id="year"></span> MAWENG CONSULTING SERVICES</p>
+        </center>
+    </footer>
 
     <!-- JS Link -->
     <script src="app.js"></script>
