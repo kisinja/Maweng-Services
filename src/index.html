@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home | Maweng Consulting Services Limited</title>
+    <link rel="stylesheet" href="output.css">
+
+    <!-- Font Awesome Link -->
+    <script src="https://kit.fontawesome.com/b052718160.js" crossorigin="anonymous"></script>
+</head>
+
+<body class="">
+    <!-- Navbar -->
+    <nav class="bg-white py-[20px] px-[5%] sticky top-0 z-[100000] flex justify-between items-center">
+        <div class="logo bg-customGreen p-1 rounded">
+            <a href="index.html">
+                <h1 class="font-bold text-2xl">
+                    Logo Here
+                </h1>
+            </a>
+        </div>
+
+        <!-- Hamburger Icon -->
+        <div class="md:hidden">
+            <button id="menu-btn" class="focus:outline-none">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" class="cursor-pointer font-bold text-lg"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path d="M3 6H21V8H3V6Z" fill="currentColor" />
+                    <path d="M3 11H21V13H3V11Z" fill="currentColor" />
+                    <path d="M3 16H21V18H3V16Z" fill="currentColor" />
+                </svg>
+            </button>
+        </div>
+
+        <!-- Navigation Links -->
+        <ul id="nav-links" class="hidden md:flex gap-8 items-center">
+            <li>
+                <a href="index.html" class="text-lg text-gray-600 hover:text-black nav-link">Home</a>
+            </li>
+            <li>
+                <a href="about.html" class="text-lg text-gray-600 hover:text-black nav-link">About</a>
+            </li>
+            <li>
+                <a href="gallery.html" class="text-lg text-gray-600 hover:text-black nav-link">Gallery</a>
+            </li>
+            <li>
+                <a href="contact.html" class="text-lg text-gray-600 hover:text-black nav-link">Contact</a>
+            </li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="relative py-8 px-4 md:py-12 md:px-8 lg:px-16" id="home">
+        <div class="w-64 h-48 absolute left-0 top-1/3 hidden md:block">
+            <img src="assets/header-1.svg" alt="illustration" class="w-full h-full object-cover" />
+        </div>
+        <div class="p-8 md:p-16 bg-[#62ff00] flex flex-col items-center rounded-xl gap-8">
+            <div class="text-center w-full md:w-3/4 lg:w-1/2 flex flex-col gap-3">
+                <h1 class="font-bold text-3xl md:text-4xl lg:text-5xl tracking-wider">
+                    Leveraging Tech <span class="bg-black text-white p-1 rounded">To Drive</span> A Better IT
+                    Experience
+                </h1>
+                <p class="text-sm md:text-base lg:text-lg text-gray-500 tracking-wider">
+                    Welcome to our platform, where you can connect, share, and engage with a vibrant community. Discover
+                    exciting content, make new friends, and stay updated with the latest trends. Join us today!
+                </p>
+            </div>
+            <div>
+                <a href="#about"
+                    class="bg-black text-white text-sm md:text-base lg:text-lg font-semibold px-4 md:px-6 lg:px-8 py-2 rounded-md cursor-pointer">
+                    About Us
+                </a>
+            </div>
+        </div>
+        <div class="w-64 h-48 absolute right-0 bottom-1/3 hidden md:block">
+            <img src="assets/header-2.svg" alt="illustration" class="w-full h-full object-cover" />
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section class="py-[40px] px-[5%] relative" id="about">
+        <div class="flex flex-col md:flex-row items-center gap-[20px] md:gap-[50px] lg:gap-[100px] justify-center">
+            <div class="py-[8%] px-[5%] rounded-lg bg-gray-200 text-left flex flex-col gap-5 w-full md:w-[50%] h-fit">
+                <h5 class="text-[#62ff00] tracking-wider">WHO WE ARE</h5>
+                <h2 class="font-bold text-3xl md:text-4xl lg:text-5xl tracking-wider">Your trusted tech partner in
+                    Nairobi</h2>
+                <p class="text-gray-500 tracking-wider text-lg md:text-xl">Maweng Consulting Limited is a leading
+                    software development company based in Nairobi, specializing in creating cutting-edge solutions for
+                    businesses of all sizes.</p>
+                <div>
+                    <a href="about.html">
+                        <button
+                            class='bg-[#62ff00] text-md md:text-lg font-semibold px-6 md:px-8 py-2 rounded-md cursor-pointer'>Read
+                            More</button>
+                    </a>
+                </div>
+            </div>
+            <div class="w-full md:w-[50%] h-auto">
+                <img src="https://i.pinimg.com/736x/44/7f/cc/447fccca39bf58fb355970cc1c991854.jpg"
+                    class="w-full h-full object-cover rounded-lg" alt="about-image" />
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="py-10 px-5 md:px-[5%]">
+        <center class="mb-6">
+            <h3 class="text-[#62ff00] font-bold tracking-wider">OUR SERVICES</h3>
+            <h1 class="text-2xl md:text-3xl font-semibold tracking-wider">
+                Our Mission is To make your <br />
+                <span class="bg-[#62ff00] p-1 rounded">Business</span> Better Through <br />
+                Technology
+            </h1>
+        </center>
+        <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5 items-center">
+            <div class="min-w-[300px] h-[300px] bg-gray-100 text-black rounded-lg flex flex-col justify-between mt-3">
+                <div class="w-full h-[200px]">
+                    <img src="https://i.pinimg.com/564x/b9/6e/cb/b96ecb6dfd4faf8bca69ad611a0702b6.jpg" alt=""
+                        class="w-full h-full object-cover rounded-t-lg" />
+                </div>
+                <div class="p-3 bg-[#62ff00] rounded-b-lg hover:bg-black">
+                    <h1 class="text-white font-bold text-lg tracking-wider underline hover:italic transition-all">
+                        Web Development
+                    </h1>
+                    <p class="tracking-wider text-black hover:text-[#62ff00]">Crafting digital solutions for your online
+                        presence.</p>
+                </div>
+            </div>
+            <div class="min-w-[300px] h-[300px] bg-gray-100 text-black rounded-lg flex flex-col justify-between mt-3">
+                <div class="w-full h-[200px]">
+                    <img src="https://i.pinimg.com/564x/f9/5f/a5/f95fa571bcf6b33e55a6f4225b3d22af.jpg" alt=""
+                        class="w-full h-full object-cover rounded-t-lg" />
+                </div>
+                <div class="p-3 bg-[#62ff00] rounded-b-lg hover:bg-black">
+                    <h1 class="text-white font-bold text-lg tracking-wider underline hover:italic transition-all">
+                        Mobile Development
+                    </h1>
+                    <p class="tracking-wider text-black hover:text-[#62ff00]">Transforming ideas into innovative mobile
+                        experiences.</p>
+                </div>
+            </div>
+            <div class="min-w-[300px] h-[300px] bg-gray-100 text-black rounded-lg flex flex-col justify-between mt-3">
+                <div class="w-full h-[200px]">
+                    <img src="https://i.pinimg.com/564x/0f/d7/7c/0fd77cf46a3fa577aa5bcefdf2af6421.jpg" alt=""
+                        class="w-full h-full object-cover rounded-t-lg" />
+                </div>
+                <div class="p-3 bg-[#62ff00] rounded-b-lg hover:bg-black">
+                    <h1 class="text-white font-bold text-lg tracking-wider underline hover:italic transition-all">
+                        UI/UX Design
+                    </h1>
+                    <p class="tracking-wider text-black hover:text-[#62ff00]">Enhancing user interactions through
+                        captivating designs.</p>
+                </div>
+            </div>
+            <div class="min-w-[300px] h-[300px] bg-gray-100 text-black rounded-lg flex flex-col justify-between mt-3">
+                <div class="w-full h-[200px]">
+                    <img src="https://i.pinimg.com/736x/5c/4c/85/5c4c8580d04eade92f8c14c5bd2163fd.jpg" alt=""
+                        class="w-full h-full object-cover rounded-t-lg" />
+                </div>
+                <div class="p-3 bg-[#62ff00] rounded-b-lg hover:bg-black">
+                    <h1 class="text-white font-bold text-lg tracking-wider underline hover:italic transition-all">
+                        E-Commerce development
+                    </h1>
+                    <p class="tracking-wider text-black hover:text-[#62ff00]">Empowering businesses with scalable
+                        e-commerce solutions.</p>
+                </div>
+            </div>
+            <div class="min-w-[300px] h-[300px] bg-gray-100 text-black rounded-lg flex flex-col justify-between mt-3">
+                <div class="w-full h-[200px]">
+                    <img src="https://i.pinimg.com/736x/63/07/35/630735c6787f824f6acd76fe7d6fb3f8.jpg" alt=""
+                        class="w-full h-full object-cover rounded-t-lg" />
+                </div>
+                <div class="p-3 bg-[#62ff00] rounded-b-lg hover:bg-black">
+                    <h1 class="text-white font-bold text-lg tracking-wider underline hover:italic transition-all">
+                        SEO Optimization
+                    </h1>
+                    <p class="tracking-wider text-black hover:text-[#62ff00]">Improving your website's visibility on
+                        search engines.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Why Choose Us Section -->
+    <section class="py-[100px] px-[5%]">
+        <div class='flex flex-col lg:flex-row justify-center gap-[50px] lg:gap-[100px]'>
+            <div class="flex flex-col gap-5">
+                <div>
+                    <h4 class="font-bold text-md text-left text-[#62ff00]">Why Choose Us</h4>
+                    <h1 class="text-left font-bold text-4xl tracking-widest">Delivering Technology <br /> Solutions
+                    </h1>
+                </div>
+                <div class="flex flex-col md:flex-row gap-8">
+                    <div class="flex flex-col gap-5 divide-y-2 w-full md:w-[350px]">
+                        <div
+                            class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center text-3xl">
+                            01
+                        </div>
+                        <div class="pt-5">
+                            <p class="tracking-wider text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ad praesentium labore impedit eaque mollitia id velit earum enim optio
+                                ipsam? Temporibus repellendus eos ipsam iusto, quia expedita tenetur placeat quis,
+                                molestiae perspiciatis quam reiciendis consequuntur omnis facilis ut accusamus odit, cum
+                                repellat incidunt sed sit! Natus, repellendus minima hic sequi, cum totam tenetur
+                                inventore dolor sit labore neque nam velit!</p>
+                        </div>
+                    </div>
+                    <div class="flex flex-col gap-5 divide-y-2 w-full md:w-[350px]">
+                        <div
+                            class="bg-black text-white w-12 h-12 rounded-full flex items-center justify-center text-3xl">
+                            02
+                        </div>
+                        <div class="pt-5">
+                            <p class="tracking-wider text-sm text-gray-500">Lorem ipsum dolor sit amet consectetur
+                                adipisicing elit. Ad praesentium labore impedit eaque mollitia id velit earum enim optio
+                                ipsam? Temporibus repellendus eos ipsam iusto, quia expedita tenetur placeat quis,
+                                molestiae perspiciatis quam reiciendis consequuntur omnis facilis ut accusamus odit, cum
+                                repellat incidunt sed sit! Natus, repellendus minima hic sequi, cum totam tenetur
+                                inventore dolor sit labore neque nam velit!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="w-full lg:w-[300px] h-[300px] mt-[50px] lg:mt-[100px]">
+                <img src="assets/whychoseus.svg" alt="illustration" class='w-full h-full object-cover' />
+            </div>
+        </div>
+    </section>
+
+    <!-- Quote Section -->
+    <section class="py-8 px-4 md:py-12 md:px-16">
+        <div class="w-full rounded-xl bg-[#62ff00] py-8 md:py-12 flex flex-col gap-5 px-6 md:px-16">
+            <h1 class="text-3xl md:text-5xl font-bold text-center tracking-wider">
+                From The Cloud To <span class="bg-black p-1 rounded text-white">Customers</span> We Bring
+                <br class="hidden md:block" /> All The Answers
+            </h1>
+
+            <p class="text-gray-800 text-sm md:text-base tracking-wider text-center">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Itaque autem suscipit rem aliquam porro beatae,
+                dolores repellat optio temporibus facilis natus aliquid adipisci et delectus vero nemo excepturi vel
+                quod!
+            </p>
+
+            <div class="flex flex-col md:flex-row gap-5 justify-center items-center">
+                <button class="bg-black text-white text-lg cursor-pointer rounded p-2">
+                    Get a Quote
+                </button>
+                <button class="bg-transparent flex gap-3 text-lg font-bold cursor-pointer text-gray-800 items-center">
+                    <i class="fa-solid fa-phone"></i>
+                    +254 712222333
+                </button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Our Location Section -->
+    <section class="py-[50px] px-[5%]" id="contact">
+        <div class="flex flex-col lg:flex-row justify-between gap-10 lg:gap-0">
+            <div class="lg:w-[550px] flex flex-col gap-5">
+                <h5 class="text-sm tracking-wider text-[#62ff00] font-bold">OUR LOCATION</h5>
+                <h1 class="font-bold tracking-wider text-2xl lg:text-5xl">Let Us Do The Work, So You Can Focus On
+                    What Matters</h1>
+                <p class="text-gray-500 text-sm tracking-wider">Lorem ipsum dolor sit amet consectetur, adipisicing
+                    elit. Qui nam aliquam provident tempora magni quia ipsum voluptatem perferendis sapiente nisi?</p>
+
+                <div class="flex flex-col sm:flex-row items-center gap-5">
+                    <div class="w-full sm:w-[330px] py-2 px-3 bg-black rounded-md flex gap-4 items-center">
+                        <div class="w-12 h-12 rounded-full bg-[#62ff00] flex items-center justify-center">
+                            <i class="fa-solid fa-envelope text-lg"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-lg tracking-wide text-white">Email</h5>
+                            <p class="text-gray-500 text-sm tracking-wider">support@mawengconsulting.co.ke</p>
+                        </div>
+                    </div>
+                    <div class="w-full sm:w-1/2 py-2 px-3 bg-[#62ff00] rounded-md flex gap-4 items-center">
+                        <div class="w-12 h-12 rounded-full bg-black flex items-center justify-center">
+                            <i class="fa-solid fa-phone text-lg text-white"></i>
+                        </div>
+                        <div>
+                            <h5 class="font-bold text-lg tracking-wide">Phone</h5>
+                            <p class="text-gray-500 text-sm tracking-wider">07123000000</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="w-full h-[200px] sm:h-[300px] lg:h-[150px]">
+                    <iframe
+                        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3988.8615806140274!2d36.7973497!3d-1.2547773!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x182f17c07e842095%3A0x89a643b02ed55fb4!2sGOMYCODE%20Nairobi!5e0!3m2!1sen!2ske!4v1718910518854!5m2!1sen!2ske"
+                        width="600" height="450" style="border: 0;" allowFullScreen="" loading="lazy"
+                        referrerPolicy="no-referrer-when-downgrade" class="rounded-md w-full h-full"></iframe>
+                </div>
+            </div>
+            <div class="lg:w-[450px]">
+                <form action="" class="py-3 px-4 bg-gray-200 rounded-md flex flex-col">
+                    <div class="mb-3">
+                        <label htmlFor="" class="font-normal text-lg tracking-wide">Name</label>
+                        <input type="text" placeholder="Enter your name"
+                            class="w-full p-2 rounded-md border-2 outline-none bg-white" />
+                    </div>
+                    <div class="mb-3">
+                        <label htmlFor="" class="font-normal text-lg tracking-wide">Email</label>
+                        <input type="email" placeholder="Enter your email"
+                            class="w-full p-2 rounded-md border-2 outline-none bg-white" />
+                    </div>
+                    <div class="mb-3">
+                        <label htmlFor="" class="font-normal text-lg tracking-wide">Message</label>
+                        <textarea name="" id="" cols="30" rows="10" placeholder="Enter your message"
+                            class="w-full p-2 rounded-md resize-none border-2 outline-none bg-white"></textarea>
+                    </div>
+                    <button class="bg-[#62ff00] p-2 rounded-md text-black font-semibold">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer Section -->
+    <footer class="w-full bg-black py-[30px] px-[5%] flex flex-col gap-12">
+        <div class="flex w-full items-center justify-between">
+            <ul class="flex flex-col gap-3 md:flex-row md:gap-8">
+                <li class="text-gray-100 tracking-wider">
+                    <a href="#services" class="text-gray-500 hover:text-white">
+                        Services
+                    </a>
+                </li>
+                <li class="text-gray-100 tracking-wider">
+                    <a href="/book-appointment" class="text-gray-500 hover:text-white">
+                        Schedule Appointment
+                    </a>
+                </li>
+                <li class="text-gray-100 tracking-wider">
+                    <a href="#faqs" class="text-gray-500 hover:text-white">
+                        FAQs
+                    </a>
+                </li>
+                <li class="text-gray-100 tracking-wider">
+                    <a href="#contact" class="text-gray-500 hover:text-white">
+                        Contact
+                    </a>
+                </li>
+            </ul>
+            <div class="flex gap-5 md:flex-row">
+                <i class="fa-brands fa-instagram text-green-800 text-xl cursor-pointer hover:text-[#62ff00]"></i>
+                <i class="fa-brands fa-linkedin text-green-800 text-xl cursor-pointer hover:text-[#62ff00]"></i>
+                <i class="fa-brands fa-twitter text-green-800 text-xl cursor-pointer hover:text-[#62ff00]"></i>
+            </div>
+        </div>
+        <center>
+            <p class="tracking-wider text-gray-100 text-sm">© <span id="year"></span> MAWENG CONSULTING SERVICES</p>
+        </center>
+    </footer>
+
+    <!-- JS Link -->
+    <script src="app.js"></script>
+</body>
+
+</html>
